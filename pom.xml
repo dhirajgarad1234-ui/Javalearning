@@ -4,6 +4,10 @@
   <groupId>org.example</groupId>
   <artifactId>Javalearning</artifactId>
   <version>1.0-SNAPSHOT</version>
-  <name>Archetype - Javalearning</name>
+    <packaging>pom</packaging>
+    <name>Archetype - Javalearning</name>
   <url>http://maven.apache.org</url>
+    <modules>
+        <module>Dhiraj</module>
+    </modules>
 </project>
