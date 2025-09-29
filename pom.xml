@@ -9,6 +9,6 @@
   <url>http://maven.apache.org</url>
     <modules>
         <module>Dhiraj</module>
-        <module>Javanewproject</module>
+        <module>Testometer_Sep25</module>
     </modules>
 </project>
