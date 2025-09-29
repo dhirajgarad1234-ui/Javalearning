@@ -5,8 +5,10 @@ public class VariableDemo1 {
         float a =10.5f;
         float b =5.4f;
 
-        a=a*b;
+        a=a/b;
+        b=a*b;
 
         System.out.println("a=" +a);
+        System.out.println("b=" +b);
     }
 }
