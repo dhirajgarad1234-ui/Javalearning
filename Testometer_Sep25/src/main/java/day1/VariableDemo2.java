@@ -2,10 +2,10 @@ package day1;
 
 public class VariableDemo2 {
     public static void main(String[] args) {
-        float a =10.5f;
-        float b =5.4f;
+        int a =10;
+        int b =5;
 
-        a=a/b;
+        a=a+b;
         b=a*b;
 
         System.out.println("a=" +a);
