@@ -6,8 +6,8 @@ public class CharDemo {
       //  int k=c;
        // System.out.println(k);
 
-        char dh='\u0927';
-        char dhi='\u093F';
-        System.out.println("" +dh +dhi +'\u0930' +'\u091C');
+        char d='\u0927';
+       // char h='\u093F';
+        System.out.println("" +d +'\u093F'+'\u0930' +'\u091C');
     }
 }
