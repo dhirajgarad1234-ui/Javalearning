@@ -6,7 +6,7 @@ public class DataTypeDemo {
 
         byte B2=(byte) S1;
 
-       // System.out.println(B2);
+        System.out.println(B2);
         //type conversion
         //Prefix 0 means convert to octal number
 
@@ -16,7 +16,7 @@ public class DataTypeDemo {
        // int k=0x89;
        // System.out.println(k);
         //prefix ob convert to binary
-        int k=0b10;
-        System.out.println(k);
+        //int k=0b10;
+        //System.out.println(k);
     }
 }
