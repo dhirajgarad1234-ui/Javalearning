@@ -11,9 +11,16 @@ public class Console {
         System.out.println("provide your number");
         int num=console.nextInt();
 
-        int rem=num%10;
-        int div=num/10;
-        System.out.println(rem+div);
+      //  int rem=num%10;
+        //int div=num/10;
+       // System.out.println(rem+div);
+
+        int rem=num%2;
+        if(rem==0){
+            System.out.println("even");
+        }else {
+            System.out.println("odd");
+        }
 
     }
 }
