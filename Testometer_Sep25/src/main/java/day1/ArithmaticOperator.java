@@ -34,14 +34,32 @@ public class ArithmaticOperator {
         //System.out.println(rem+div);
 
         //3 digit sum 674=17
-         int num=674;
-         int sum=0;
+        // int num=674;
+        // int sum=0;
 
-         sum=sum+(num%10);//sum=4
-         num=num/10;//num=67
+       //  sum=sum+(num%10);//sum=4
+         //num=num/10;//num=67
 
-        sum=sum+(num%10);//sum=11
-        num=num/10;//num=6
+        //sum=sum+(num%10);//sum=11
+        //num=num/10;//num=6
+
+        //sum=sum+num;
+        //System.out.println(sum);
+
+        //4 digit sum 6749=26
+        int num=6749;
+        int sum=0;
+
+        sum=sum+(num%10);//sum=9
+        num=num/10;//num=674
+
+        sum=sum+(num%10);//sum=13
+        num=num/10;//num=67
+
+        sum=sum+(num%10);//sum=20
+        num=num/10;//6
+
+
         sum=sum+num;
         System.out.println(sum);
 
