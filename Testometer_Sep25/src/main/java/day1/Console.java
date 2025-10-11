@@ -7,7 +7,7 @@ public class Console {
         Scanner console=new Scanner(System.in);
         System.out.println("what is your age");
         int age= console.nextInt();
-        System.out.println("your age is" +age);
+        System.out.println("your age is "  +age);
 
     }
 }
