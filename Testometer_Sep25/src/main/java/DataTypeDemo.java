@@ -6,4 +6,12 @@ public class DataTypeDemo {
 
         System.out.println(B2);
     }
+
+    public static class booleanDataType {
+        public static void main(String[] args) {
+            //boolean: true or false --Only one data type value also keyword.1bit memory.
+            boolean b1=true;
+            boolean b2=false;
+        }
+    }
 }
