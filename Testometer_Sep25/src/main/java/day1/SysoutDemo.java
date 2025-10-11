@@ -6,7 +6,7 @@ public class SysoutDemo {
         //System.out.println(10+2);
         //+operator will behave like addition until string not available
         //As soon as string present + operator change its nature to append
-        //System.out.println(10+20+30);
-        //System.out.println(""+10+20+30);
+        System.out.println(10+20+30);
+        System.out.println(""+10+20+30);
     }
 }
