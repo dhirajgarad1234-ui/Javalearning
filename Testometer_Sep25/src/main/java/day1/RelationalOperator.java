@@ -14,6 +14,16 @@ public class RelationalOperator {
         System.out.println(i<=j);
         System.out.println(i==j);
         System.out.println(i!=j);
+
+        //Condition if else loop
+        int age=24;
+        if (age<=18){
+            System.out.println("child");
+        }else{
+            System.out.println("adult");
+        }
+
+
     }
 
 }
