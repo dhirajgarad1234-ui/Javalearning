@@ -47,21 +47,29 @@ public class ArithmaticOperator {
         //System.out.println(sum);
 
         //4 digit sum 6749=26
-        int num=6749;
+        //int num=6749;
         int sum=0;
 
-        sum=sum+(num%10);//sum=9
-        num=num/10;//num=674
+       // sum=sum+(num%10);//sum=9
+        //num=num/10;//num=674
 
-        sum=sum+(num%10);//sum=13
-        num=num/10;//num=67
+        //sum=sum+(num%10);//sum=13
+        //num=num/10;//num=67
 
-        sum=sum+(num%10);//sum=20
-        num=num/10;//6
+        //sum=sum+(num%10);//sum=20
+        //num=num/10;//6
 
 
-        sum=sum+num;
-        System.out.println(sum);
+        //sum=sum+num;
+       // System.out.println(sum);
+
+        int num = 34;   // Original number
+        int rev = 0;    // Variable to store reversed number
+
+            rev=rev+(num%10);//rev=4
+            num=num/10;//num=3
+
+        System.out.println(" " + rev +num);
 
 
     }
