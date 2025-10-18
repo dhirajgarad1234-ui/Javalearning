@@ -63,13 +63,15 @@ public class ArithmaticOperator {
         //sum=sum+num;
        // System.out.println(sum);
 
-        int num = 34;   // Original number
-        int rev = 0;    // Variable to store reversed number
+       // int num = 34;   // Original number
+       // int rev = 0;    // Variable to store reversed number
 
-            rev=rev+(num%10);//rev=4
-            num=num/10;//num=3
+         //   rev=rev+(num%10);//rev=4
+         //   num=num/10;//num=3
 
-        System.out.println(" " + rev +num);
+        //System.out.println(" " + rev +num);
+
+
 
 
     }
