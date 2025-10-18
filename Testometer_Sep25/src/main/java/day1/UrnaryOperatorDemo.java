@@ -8,8 +8,8 @@ public class UrnaryOperatorDemo {
         //increment and decrement operator
         //pre increment ++a first increase and assign
         //post increment a++ first assign and increase
-        int b=++a + a++;
-        //    11+11
+        int b=++a + a++ + a++ + ++a;
+        //    11+11+12+14
         System.out.println("a :" +a);
         System.out.println("b :" +b);
     }
