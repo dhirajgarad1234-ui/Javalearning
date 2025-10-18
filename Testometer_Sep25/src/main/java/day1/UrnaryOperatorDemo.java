@@ -2,15 +2,19 @@ package day1;
 
 public class UrnaryOperatorDemo {
     public static void main(String[] args) {
-        int a=10;
+        //int a=10;
         //++a;
         //System.out.println(a);
         //increment and decrement operator
         //pre increment ++a first increase and assign
         //post increment a++ first assign and increase
-        int b=++a + a++ + a++ + ++a;
+        //int b=++a + a++ + a++ + ++a;
         //    11+11+12+14
-        System.out.println("a :" +a);
-        System.out.println("b :" +b);
+       // System.out.println("a :" +a);
+        //System.out.println("b :" +b);
+
+        //Not operator--Boolean value reverse
+        boolean a=true;
+        System.out.println(!a);
     }
 }
