@@ -14,7 +14,11 @@ public class UrnaryOperatorDemo {
         //System.out.println("b :" +b);
 
         //Not operator--Boolean value reverse
-        boolean a=true;
-        System.out.println(!a);
+        //boolean a=true;
+        //System.out.println(!a);
+
+        //~ first add 1 into value and then reverse the sign
+        int a=-10;
+        System.out.println(~a);
     }
 }
