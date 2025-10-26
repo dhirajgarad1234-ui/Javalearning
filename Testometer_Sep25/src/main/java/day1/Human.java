@@ -3,7 +3,7 @@ package day1;
 import javax.xml.namespace.QName;
 
 public class Human {
-
+//Instance variable
    String name;
    int height;
    double weight;
